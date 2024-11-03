@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: #F2D388;
+    padding: 20px;
+}
+
+.footer li {
+    list-style: none;
+    gap: 20px;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.footer-navegacion{
+    display: flex;
+    gap: 80px;
+}
+
+.footer a:hover{
+    color: rgb(122, 122, 122);
+}
+
