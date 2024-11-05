@@ -1,24 +1,13 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 /* ul {
     list-style: none;
 } */
 
-a {
-    text-decoration: none;
-    color: rgb(27, 27, 27);
-}
-
 hr{
     color: rgba(0, 0, 0, 0.215);
 }
 
-.container{
+body{
     display: flex;
     flex-direction: column;
 }

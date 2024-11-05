@@ -22,47 +22,46 @@
 
 <body>
 
-    <div class="container">
+    <header class="header">
+        <a class="logo" href="./index-LP.html"><img src="img/LOGO.png" alt="Logo"></a>
 
-        <header class="header">
-            <a class="logo" href="./index-LP.html"><img src="img/LOGO.png" alt="Logo"></a>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="./index-LP.html">Home</a></li>
+                <li><a href="./index-Recetas.html">Recetas</a></li>
+                <li><a href="./index-Intercambios.html">Comunidad</a></li>
+                <li><a href="./index-desafios.html">Desafios</a></li>
+            </ul>
 
-            <nav class="navegacion">
-                <ul class="menu">
-                    <li><a href="./index-LP.html">Home</a></li>
-                    <li><a href="./index-Recetas.html">Recetas</a></li>
-                    <li><a href="./index-Intercambios.html">Comunidad</a></li>
-                    <li><a href="./index-desafios.html">Desafios</a></li>
-                </ul>
+            <section class="iconos">
+                <a href="./index-login.html"><img src="img/usuario.png" alt="Usuario"></a>
+                <a href="./index-contacto.html"><img src="img/ig.png" alt="Instagram"></a>
+            </section>
+        </nav>
+    </header>
 
-                <nav class="iconos">
-                    <a href="./index-login.html"><img src="img/usuario.png" alt="Usuario"></a>
-                    <a href="./index-contacto.html"><img src="img/ig.png" alt="Instagram"></a>
-                </nav>
-            </nav>
-        </header>
+    <main>
 
-        <main>
-
-            <section class="cabecera-receta">
+        <article>
+            <header class="cabecera-receta">
                 <h1>Bizcocho de chocolate negro con naranja confitada</h1>
                 <aside class="autor">
                     <img src="./img/foto-autor.jpg" alt="Foto autor">
                     <p>Lucía Garrido</p>
                 </aside>
-            </section>
+            </header>
 
-            <article class="receta">
+            <section class="receta">
 
-                <section class="foto-ingredientes">
+                <div class="foto-ingredientes">
                     <figure>
                         <img src="./img/bizcocho-de-chocolate-negro-con-naranja-confitada_76d9aefa_800x800.jpg"
                             alt="Foto bizcocho">
                         <figcaption>Fig - Presentación tarta de chocolate y naranja </figcaption>
                     </figure>
-                    <section class="fondo-ingredientes">
+                    <div class="fondo-ingredientes">
                         <h2>Ingredientes</h2>
-                        <section class="ingredientes">
+                        <div class="ingredientes">
                             <ul>
                                 <li>3 Huevos</li>
                                 <li>1 Yogur natural</li>
@@ -79,18 +78,18 @@
                                 <li>15g Cacao puro en polvo</li>
                                 <li>Una pizca de sal</li>
                             </ul>
-                        </section>
-                    </section>
-                </section>
-                <section class="descripcion-receta">
-                    <section class="descripcion">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="descripcion-receta">
+                    <div class="descripcion">
                         <h2>Descripción</h2> <br>
                         <p>Disfruta de esta deliciosa tarta de chocolate y naranja, que combina el rico sabor del
                             chocolate con la frescura y acidez de la naranja. Ideal para cualquier ocasión, esta tarta
                             es un verdadero placer para los amantes del chocolate.</p>
-                    </section>
-
-                    <section class="preparacion">
+                    </div>
+                    <div class="preparacion">
                         <h2>Instrucciones</h2><br>
                         <ol>
                             <li>En un bol mezcla los ingredientes secos: La harina, el azúcar, la levadura y la sal.
@@ -126,10 +125,13 @@
                             <li>Antes de desmoldar deja reposar dentro del molde durante 10 minutos y después saca el
                                 bizcocho del molde y deja enfriar sobre una rejilla.</li><br><br>
                         </ol>
-                    </section>
-                </section>
-            </article>
+                    </div>
+
+                </div>
+
+            </section>
             <hr>
+
             <aside class="adicional">
 
                 <section class="tiempo">
@@ -216,28 +218,30 @@
 
                 </aside>
             </aside>
-        </main>
+        </article>
 
-        <footer class="footer">
-            <footer class="legal">
-                <ul>© 2024 Chef Connect
-                    <li><a href="./index-TC.html">Terminos y condiciones</a></li>
-                    <li><a href="./index-contacto.html">Contacto</a></li>
-                </ul>
-            </footer><hr>
-            <footer class="footer-navegacion">
-                <ul>Navegación
-                    <li><a href="./grid-recetas.html">Recetas</a></li>
-                    <li><a href="./comunidad.html">Comunidad</a></li>
-                </ul><hr>
-                <ul> Usuarios
-                    <li><a href="./login.html">Iniciar sesión</a></li>
-                    <li><a href="./formulario.html">Cear cuenta</a></li>
-                </ul>
-            </footer>
-        </footer>
+    </main>
 
-    </div>
+    <footer class="footer">
+        <section class="legal">
+            <ul>© 2024 Chef Connect
+                <li><a href="./index-TC.html">Terminos y condiciones</a></li>
+                <li><a href="./index-contacto.html">Contacto</a></li>
+            </ul>
+        </section>
+        <hr>
+        <nav class="footer-navegacion">
+            <ul>Navegación
+                <li><a href="./grid-recetas.html">Recetas</a></li>
+                <li><a href="./comunidad.html">Comunidad</a></li>
+            </ul>
+            <hr>
+            <ul> Usuarios
+                <li><a href="./login.html">Iniciar sesión</a></li>
+                <li><a href="./formulario.html">Cear cuenta</a></li>
+            </ul>
+        </nav>
+    </footer>
 
 </body>
 
